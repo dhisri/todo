@@ -1,14 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <span>
+        <div className="container">
           <input type="text"></input>
           <button>Add to do</button>
-        </span>
+        </div>
       </header>
     </div>
   );
