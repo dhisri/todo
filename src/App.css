@@ -12,6 +12,7 @@
 }
 
 .container {
+  justify-content: center;
   width: 80%; /* Adjust width as needed */
   max-width: 1200px; /* Maximum width for larger screens */
   margin: 0 auto; /* Center the container horizontally */
@@ -19,6 +20,7 @@
   background: linear-gradient(to right top, #c0bdcf, #2b5e66);
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  margin-bottom: auto;
 }
 
 button {
@@ -34,7 +36,7 @@ button {
   margin: 5px;
   padding: 10px 15px;
   text-align: center;
-  user-select: all;
+  user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
@@ -47,4 +49,16 @@ input {
   width: 30rem;
   font-family: Montserrat,sans-serif;
   max-width: 100%;
+}
+
+label {
+  font-family: Montserrat,sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: aliceblue;
+  text-align: left;
+}
+
+.add-todo {
+  margin-top: 2rem;
 }

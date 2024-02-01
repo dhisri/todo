@@ -5,8 +5,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
+          <div>
+          <label>Your ToDo Companion</label>
+          </div>
+          <div className="add-toto">
           <input type="text"></input>
-          <button>Add to do</button>
+          <button>Add ToDo</button>
+          </div>
         </div>
       </header>
     </div>
