@@ -6,11 +6,11 @@ function App() {
       <header className="App-header">
         <div className="container">
           <div>
-          <label>Your ToDo Companion</label>
+          <label>Your Todo Companion</label>
           </div>
           <div className="add-toto">
           <input type="text"></input>
-          <button>Add ToDo</button>
+          <button>Add Todo</button>
           </div>
         </div>
       </header>
