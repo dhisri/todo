@@ -6,7 +6,7 @@ const App = () => {
       <header className="App-header">
         <div className="container">
           <div>
-          <label>Your ToDo Companion</label>
+          <label>Your Todo Companion</label>
           </div>
           <div className="add-todo">
           <input type="text" placeholder="Add todo..."></input>
