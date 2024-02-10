@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -8,8 +8,8 @@ function App() {
           <div>
           <label>Your ToDo Companion</label>
           </div>
-          <div className="add-toto">
-          <input type="text"></input>
+          <div className="add-todo">
+          <input type="text" placeholder="Add todo..."></input>
           <button>Add ToDo</button>
           </div>
         </div>
