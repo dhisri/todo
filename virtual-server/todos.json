@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "todo": "BUY A BOOK",
+      "description": "",
+      "timestamp": "",
+      "isDeleted": false,
+      "deleteTimestamp": "",
+      "reminderDate": "",
+      "isDone": false
+    },
+    {
+      "todo": "clean home",
+      "id": "2"
+    },
+    {
+      "id": 4,
+      "todo": "adsf"
+    }
+  ]
+}

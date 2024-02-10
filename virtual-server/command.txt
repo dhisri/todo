@@ -1,0 +1,4 @@
+Commands:
+Install json-server dependency: npm install -g json-server
+
+Run this command to run the virtual server: json-server --port 7000 --watch todos.json
