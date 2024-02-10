@@ -1,12 +1,17 @@
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <input type="text"></input>
-          <button>Add to do</button>
+          <div>
+          <label>Your Todo Companion</label>
+          </div>
+          <div className="add-todo">
+          <input type="text" placeholder="Add todo..."></input>
+          <button>Add ToDo</button>
+          </div>
         </div>
       </header>
     </div>
