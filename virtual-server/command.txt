@@ -2,3 +2,24 @@ Commands:
 Install json-server dependency: npm install -g json-server
 
 Run this command to run the virtual server: json-server --port 7000 --watch todos.json
+
+Virtual API with below end points will be established to consume:
+
+To get all the todos:
+GET: http://localhost:7000/todos
+
+To get a specific todo:
+GET: http://localhost:7000/todos/***todo-id***
+
+POST: http://localhost:7000/todos
+Sample Request payload: 
+{
+    "id": "10",
+    "todo": "BUY A BOOK",
+    "description": "",
+    "timestamp": "",
+    "isDeleted": false,
+    "deleteTimestamp": "",
+    "reminderDate": "",
+    "isDone": false
+}
